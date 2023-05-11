@@ -80,7 +80,7 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	justify-content: space-between;
+	justify-content: stretch;
 
 	min-height: 30vmin;
 	padding: 20px;
@@ -94,21 +94,18 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 
-	padding-left: 20px;
+	padding-left: 30px;
 
-	/*min-height: 30vmin;
-	padding: 20px;
-	margin-bottom: 10px;*/
 }
 
 .articleTitle {
-	font-size: 20px;
+	font-size: 21px;
 	font-weight: bold;
 }
 
 
 .articleText {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: lighter;
 }
 

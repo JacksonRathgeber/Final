@@ -18,9 +18,9 @@ news = {
 	},
 
 	news2: {
-		"title": "Man Kills 2000 People with Nuclear Warhead After Neighbor 'Looked At Him Funny'",
+		"title": "Man Kills Hundreds with Nuclear Warhead After Neighbor Wished Him A Good Morning",
 		"date": "November 22, 2024",
-		"subtitle": "The suspect has been sentenced to 6 months probation.",
+		"subtitle": "The football star has been sentenced to 6 months probation to avoid damaging his record.",
 		"image": "images/nuke.jpeg"
 
 	},
@@ -34,9 +34,9 @@ news = {
 	},
 
 	news4: {
-		"title": "Another Minority Is About to Get Eradicated, and I'm a Little Concerned",
+		"title": "There's About to Be A Literal Genocide.",
 		"date": "September 28, 2027",
-		"subtitle": "Is genocide too high a price for being cringe?",
+		"subtitle": "Here are some facts you should know before you ignore it.",
 		"image": "images/desantis.jpeg"
 
 	},
@@ -44,7 +44,7 @@ news = {
 	news5: {
 		"title": "The Only Lipstick that Can Withstand Tear Gas is ON SALE NOW!",
 		"date": "March 12, 2024",
-		"subtitle": "For our revolutionary anticapitalist yass queen girlies! (We will kill you the second you enter our doors)",
+		"subtitle": "What's the point of revolution if you can't SLAY in your pictures from it?",
 		"image": "images/lipstick.jpg"
 
 	},
@@ -82,6 +82,9 @@ for(let i=0;i<Object.keys(news).length;i++){
 	
 	content.appendChild(title);
 
+	let br3=document.createElement("br");
+	content.appendChild(br3);
+
 	let sub=document.createElement("p");
 	sub.classList.add("articleText");
 	sub.innerText=data[2];
@@ -93,6 +96,9 @@ for(let i=0;i<Object.keys(news).length;i++){
 
 	let br2=document.createElement("br");
 	content.appendChild(br2);
+
+	let br4=document.createElement("br");
+	content.appendChild(br4);
 
 
 	let date=document.createElement("p");
